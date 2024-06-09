@@ -7,13 +7,16 @@ const MainPage =(props)=>{
         </Col>,
         <Col style={{background:'silver'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
             {props.user?.username}
-        </Col>,
-        <Col style={{background:'silver'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
-            {props.user?.username}
-        </Col>   ]
+        </Col>  ]
  
     return (
         <div>
+            <Row>
+                {mascol}
+            </Row>
+            <Row>
+                {mascol}
+            </Row>
             <Row>
                 {mascol}
             </Row>
