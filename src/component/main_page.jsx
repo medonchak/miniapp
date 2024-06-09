@@ -4,7 +4,7 @@ const MainPage =(props)=>{
 
  
     return (
-        <div >
+        <div style={{width:'100%',height:'100%',margin:'10px'}}>
             <Row >
                 <Col style={{background:'silver',width:'100%',height:'120px',margin:'10px'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
                     Інвестиції  
