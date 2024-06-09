@@ -1,16 +1,14 @@
-
+import React from 'react'
 import './App.css';
+import MainPage from './component/main_page';
 
-function App() {
+const App = ()=> {
   const tg = window.Telegram.WebApp
-  const test =  tg.initDataUnsafe?.user?.username
+  const user =  tg.initDataUnsafe?.user
   return (
     <div className="App">
-    
-      
-     
-           <button>{test}</button>
-       
+
+          <MainPage user={user}/>
         
    
     </div>
