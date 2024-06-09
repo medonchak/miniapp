@@ -1,23 +1,26 @@
 import React from 'react'
 import { Col, Row } from 'antd';
 const MainPage =(props)=>{
-    const mascol =  [
-        <Col style={{background:'silver',width:'120px',height:'120px',margin:'10px'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
-           sdds {props.user?.username}
-        </Col>,
-        <Col style={{background:'silver',width:'120px',height:'120px',margin:'10px'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
-         dsds   {props.user?.username}
-        </Col>  ]
+
  
     return (
-        <div style={{width:'50%',height:'50%'}}>
+        <div >
             <Row >
-                {mascol}
+                <Col style={{background:'silver',width:'120px',height:'120px',margin:'10px'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
+                    Інвестиції  
+                </Col>  
+                <Col style={{background:'silver',width:'120px',height:'120px',margin:'10px'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
+                    Дропи  
+                </Col>  
             </Row>
             <Row >
-                {mascol}
+                <Col style={{background:'silver',width:'120px',height:'120px',margin:'10px'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
+                    Тестнет   
+                </Col>  
+                <Col style={{background:'silver',width:'120px',height:'120px',margin:'10px'}} xs={{span: 5, offset: 1,}} lg={{span: 6, offset: 2,}}>
+                    Смарт ідеї  
+                </Col> 
             </Row>
-       
         </div>
     )
 }
